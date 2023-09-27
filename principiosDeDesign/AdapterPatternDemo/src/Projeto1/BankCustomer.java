@@ -3,13 +3,13 @@ package Projeto1;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class BankCostumer extends BankDetails implements CreditCard {
+public class BankCustomer extends BankDetails implements CreditCard {
     public void giveBankDetails() {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
             System.out.println("Digite o nome do titular da conta: ");
-            String costumername = br.readLine();
+            String customername = br.readLine();
             System.out.print("\n");
 
             System.out.println("Digite o número da conta: ");
@@ -19,7 +19,7 @@ public class BankCostumer extends BankDetails implements CreditCard {
             System.out.println("Digite o nome do banco:");
             String bankName = br.readLine();
 
-            setAccHolderName(costumername);
+            setAccHolderName(customername);
             setAccNumber(accno);
             setBankName(bankName);
         } catch (Exception e) {

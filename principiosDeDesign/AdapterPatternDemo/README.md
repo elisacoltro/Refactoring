@@ -1,18 +1,7 @@
-## Getting Started
+## Padrões de Design
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Definição: Os Padrões de Projeto, também conhecidos como Design Patterns em inglês, são soluções reutilizáveis para problemas comuns encontrados no desenvolvimento de software. Eles são abstrações testadas e comprovadas que podem ser aplicadas a várias situações para resolver problemas específicos de design ou arquitetura de software.
 
-## Folder Structure
+Propósito: Os Padrões de Projeto são criados para promover a reutilização de código, melhorar a modularidade e a manutenção do software, e facilitar a comunicação entre os membros da equipe de desenvolvimento. Eles ajudam a capturar melhores práticas e lições aprendidas ao longo do tempo.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Exemplos: Alguns exemplos de Padrões de Projeto incluem o Singleton, o Factory Method, o Observer, o Strategy, o Decorator, entre outros. Cada um desses padrões resolve um tipo específico de problema de design de software.

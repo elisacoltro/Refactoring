@@ -1,18 +1,7 @@
-## Getting Started
+## Abstract factory
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O Abstract Factory é um padrão de projeto (design pattern) que faz parte do conjunto de padrões de criação. Ele fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. Em outras palavras, o Abstract Factory permite que você crie objetos de várias classes relacionadas sem se preocupar com os detalhes de implementação dessas classes.
 
-## Folder Structure
+## Factory Method
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O Factory Method é um padrão de projeto (design pattern) que faz parte do conjunto de padrões de criação. Ele fornece uma interface para a criação de objetos em uma superclasse, mas permite que as subclasses escolham qual classe concreta instanciar. O Factory Method é útil quando você tem uma classe base (superclasse) com métodos que são implementados por suas subclasses, mas a criação de objetos específicos depende do contexto ou das necessidades das subclasses.

@@ -1,18 +1,3 @@
-## Getting Started
+## Simple Factory
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O Simple Factory, também conhecido como Factory Method Simples ou Factory, é um padrão de projeto (design pattern) criacional que não faz parte dos padrões Gang of Four (GoF), mas é frequentemente usado em programação para criar objetos sem expor a lógica de criação diretamente ao cliente. Ele encapsula a criação de objetos e fornece uma interface simples para criar diferentes tipos de objetos, com base em algum critério passado como argumento.
